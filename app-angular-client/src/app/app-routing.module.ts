@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
+import { StaticTokenCheckComponent } from './static-token-check/static-token-check.component';
+import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   {
@@ -21,6 +23,14 @@ const routes: Routes = [
   {
     path: 'admin',
     component: AdminComponent
+  },
+  {
+    path: 'user',
+    component: UserComponent
+  }
+  ,{
+    path: 'static-token-check',
+    component: StaticTokenCheckComponent
   }
 ];
 

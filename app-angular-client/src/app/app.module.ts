@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { LoginComponent } from './login/login.component';
+import { StaticTokenCheckComponent } from './static-token-check/static-token-check.component';
+import { UserComponent } from './user/user.component';
 
 
 
@@ -18,7 +20,9 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     LoginComponent,
     HomeComponent,
-    AdminComponent
+    AdminComponent,
+    StaticTokenCheckComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,

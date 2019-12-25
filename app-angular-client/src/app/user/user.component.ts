@@ -4,11 +4,11 @@ import { AuthService } from '../coreApp/auth-service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-admin',
-  templateUrl: './admin.component.html',
-  styleUrls: ['./admin.component.css']
+  selector: 'app-user',
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.css']
 })
-export class AdminComponent implements OnInit {
+export class UserComponent implements OnInit {
 
  
   constructor(
